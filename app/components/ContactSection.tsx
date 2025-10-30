@@ -55,9 +55,9 @@ export default function ContactSection() {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">İletişime Geçin</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Bafra Boyacı İletişim</h2>
           <p className="text-xl text-gray-600">
-            Ücretsiz keşif ve fiyat teklifi için hemen bize ulaşın
+            Bafra ev boyama hizmeti, iç cephe boyama Bafra ve dış cephe boyama Bafra için ücretsiz keşif ve fiyat teklifi alın
           </p>
         </div>
 
@@ -75,10 +75,10 @@ export default function ContactSection() {
             {/* Content */}
             <div className="relative z-10 p-8 space-y-8">
               <div className="mb-8">
-                <h3 className="text-2xl font-bold text-white mb-3">Bizimle İletişime Geçin</h3>
+                <h3 className="text-2xl font-bold text-white mb-3">Boya Ustası Bafra İletişim</h3>
                 <p className="text-blue-100 text-sm leading-relaxed">
-                  15+ yıllık deneyimimizle hayalinizdeki boyama projesini gerçekleştiriyoruz. 
-                  Ücretsiz keşif için hemen arayın!
+                  Bafra boya badana ustası olarak 15+ yıllık deneyimimizle hayalinizdeki boyama projesini gerçekleştiriyoruz. 
+                  Bafra boyacı ekibimizden ücretsiz keşif için hemen arayın!
                 </p>
               </div>
               

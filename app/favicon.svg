@@ -1,0 +1,22 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Yuvarlak çerçeve - şeffaf background -->
+  <circle cx="8" cy="8" r="7.5" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  
+  <!-- Kalın uçlu fırça üst kısımda -->
+  <g transform="translate(8,4)">
+    <!-- Fırça sapı -->
+    <rect x="-0.5" y="1" width="1" height="3" rx="0.5" fill="#8B4513"/>
+    <!-- Metal bağlantı -->
+    <rect x="-0.75" y="0" width="1.5" height="1.25" rx="0.15" fill="#6B7280"/>
+    <!-- Kalın fırça ucu -->
+    <ellipse cx="0" cy="-1" rx="1.25" ry="0.75" fill="#374151"/>
+    <!-- Fırça kılları -->
+    <path d="M-1.25 -1.5 Q-0.5 -2 0 -1.75 Q0.5 -2 1.25 -1.5 Q0 -0.5 0 -0.25 Q0 -0.5 -1.25 -1.5 Z" fill="#1F2937"/>
+  </g>
+  
+  <!-- İlk B harfi (Sol) -->
+  <path d="M3 7 L3 13 L5.5 13 Q7 13 7 11.5 Q7 10.75 6.25 10.75 Q7 10.75 7 9.5 Q7 8 5.5 8 L3 8 Z M4 8.75 L5.25 8.75 Q5.5 8.75 5.5 9.25 Q5.5 9.75 5.25 9.75 L4 9.75 Z M4 10.75 L5.25 10.75 Q5.5 10.75 5.5 11.25 Q5.5 12 5.25 12 L4 12 Z" fill="#2563EB"/>
+  
+  <!-- İkinci B harfi (Sağ) -->
+  <path d="M9 7 L9 13 L11.5 13 Q13 13 13 11.5 Q13 10.75 12.25 10.75 Q13 10.75 13 9.5 Q13 8 11.5 8 L9 8 Z M10 8.75 L11.25 8.75 Q11.5 8.75 11.5 9.25 Q11.5 9.75 11.25 9.75 L10 9.75 Z M10 10.75 L11.25 10.75 Q11.5 10.75 11.5 11.25 Q11.5 12 11.25 12 L10 12 Z" fill="#2563EB"/>
+</svg>

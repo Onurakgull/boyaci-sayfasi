@@ -2,24 +2,24 @@ export default function ServicesSection() {
   const services = [
     {
       icon: "🏠",
-      title: "İç Mekan Boyama",
-      description: "Evinizin içini modern renkler ve kaliteli boyalarla yenileyin. Oda, salon, mutfak ve banyo boyama hizmetleri.",
+      title: "İç Cephe Boyama Bafra",
+      description: "İç cephe boyama Bafra hizmetimizle evinizin içini modern renkler ve kaliteli boyalarla yenileyin. Bafra ev boyama hizmeti kapsamında oda, salon, mutfak ve banyo boyama.",
       features: ["• Duvar boyama", "• Tavan boyama", "• Dekoratif boyama"],
       bgColor: "bg-blue-100",
       iconColor: "text-blue-600"
     },
     {
       icon: "🏢",
-      title: "Dış Mekan Boyama",
-      description: "Binanızın dış cephesini hava koşullarına dayanıklı kaliteli boyalarla koruyun.",
+      title: "Dış Cephe Boyama Bafra",
+      description: "Dış cephe boyama Bafra uzmanı ekibimizle binanızın dış cephesini hava koşullarına dayanıklı kaliteli boyalarla koruyun. Boya ustası Bafra garantisi.",
       features: ["• Cephe boyama", "• Çatı boyama", "• Balkon boyama"],
       bgColor: "bg-green-100",
       iconColor: "text-green-600"
     },
     {
       icon: "🎨",
-      title: "Dekoratif İşler",
-      description: "Özel tasarım ve dekoratif boyama işleri ile mekanınıza benzersiz bir görünüm kazandırın.",
+      title: "Bafra Boya Badana Ustası",
+      description: "Bafra boya badana ustası ekibimizle özel tasarım ve dekoratif boyama işleri. Bafra boyacı olarak mekanınıza benzersiz görünüm kazandırıyoruz.",
       features: ["• Duvar kağıdı", "• Stencil işleri", "• Özel desenler"],
       bgColor: "bg-purple-100",
       iconColor: "text-purple-600"
@@ -30,9 +30,9 @@ export default function ServicesSection() {
     <section id="services" className="py-12 md:py-16 lg:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 md:mb-4">Hizmetlerimiz</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 md:mb-4">Bafra Boyacı Hizmetleri</h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Ev, ofis ve ticari alanlar için kapsamlı boyama hizmetleri sunuyoruz
+            Bafra ev boyama hizmeti, iç cephe boyama Bafra ve dış cephe boyama Bafra için kapsamlı hizmetler sunuyoruz
           </p>
         </div>
 

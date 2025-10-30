@@ -15,14 +15,14 @@ export default function AboutSection() {
         <div className="text-center mb-12 md:mb-20">
           <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
             <span className="text-lg">🏠</span>
-            Bafranın Güvenilir Boyacısı
+            Bafra Boyacı - Güvenilir Boya Ustası
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6">
-            Hakkımızda
+            Bafra Boya Badana Ustası Hakkında
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            15+ yıllık deneyimimiz ve profesyonel ekibimizle Bafra ve çevresinde 
-            kaliteli boyama hizmeti sunuyoruz
+            Bafra bölgesinde 15+ yıllık deneyimimiz ve profesyonel boya ustası Bafra ekibimizle 
+            iç cephe boyama Bafra, dış cephe boyama Bafra ve Bafra ev boyama hizmeti sunuyoruz
           </p>
         </div>
 
