@@ -129,7 +129,7 @@ export default function HeroSection() {
                   ? 'transform -translate-x-full opacity-0' 
                   : 'transform translate-x-0 opacity-100'
               }`}>
-                <svg width="100%" height="100%" viewBox="0 0 300 300" className="house-left max-w-[300px] sm:max-w-[350px] md:max-w-[400px] max-h-[300px] sm:max-h-[350px] md:max-h-[400px]">
+                <svg width="100%" height="100%" viewBox="0 0 300 300" className="house-left max-w-[300px] sm:max-w-[350px] md:max-w-[400px] max-h-[300px] sm:max-h-[350px] md:max-h-[400px]" role="img" aria-label="Ev animasyonu sol parça - profesyonel boyama hizmeti">
                   {/* Sol yarı ev */}
                   <polygon 
                     points="30,150 150,60 150,270 30,270" 
@@ -167,7 +167,7 @@ export default function HeroSection() {
                   ? 'transform translate-x-full opacity-0' 
                   : 'transform translate-x-0 opacity-100'
               }`}>
-                <svg width="100%" height="100%" viewBox="0 0 300 300" className="house-right max-w-[300px] sm:max-w-[350px] md:max-w-[400px] max-h-[300px] sm:max-h-[350px] md:max-h-[400px]">
+                <svg width="100%" height="100%" viewBox="0 0 300 300" className="house-right max-w-[300px] sm:max-w-[350px] md:max-w-[400px] max-h-[300px] sm:max-h-[350px] md:max-h-[400px]" role="img" aria-label="Ev animasyonu sağ parça - profesyonel boyama hizmeti">
                   {/* Sağ yarı ev */}
                   <polygon 
                     points="150,60 270,150 270,270 150,270" 
@@ -211,7 +211,7 @@ export default function HeroSection() {
               }`}>
                 <div className="relative w-[280px] sm:w-[380px] md:w-[450px] lg:w-[500px] h-[280px] sm:h-[380px] md:h-[450px] lg:h-[500px]">
                   {/* Ana ev yapısı - Birleşmiş hali */}
-                  <svg width="100%" height="100%" viewBox="0 0 288 288" className="absolute inset-0">
+                  <svg width="100%" height="100%" viewBox="0 0 288 288" className="absolute inset-0" role="img" aria-label="Birleşmiş ev yapısı - boyama hizmeti gösterimi">
                     {/* Birleşmiş ev */}
                     <polygon 
                       points="30,144 144,48 258,144 258,258 30,258" 

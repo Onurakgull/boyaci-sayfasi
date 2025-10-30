@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -63,12 +64,16 @@ export default function ContactSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Info with Background */}
-          <div 
-            className="relative rounded-2xl overflow-hidden bg-cover bg-center bg-no-repeat"
-            style={{
-              backgroundImage: "url('/painter.jpg')"
-            }}
-          >
+          <div className="relative rounded-2xl overflow-hidden">
+            {/* Background Image */}
+            <Image
+              src="/painter.jpg"
+              alt="Bafra boyacı ekibi çalışırken - profesyonel boya ustası Bafra hizmeti"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              priority={false}
+            />
             {/* Overlay for better text readability */}
             <div className="absolute inset-0 bg-gradient-to-br from-blue-400/85 via-blue-800/80 to-blue-900/90"></div>
             

@@ -47,6 +47,8 @@ export default function ServicesSection() {
                 className="absolute inset-0 w-full h-full opacity-25 group-hover:opacity-40 transition-opacity duration-500"
                 viewBox="0 0 320 240"
                 preserveAspectRatio="none"
+                role="img" 
+                aria-label="Dekoratif fırça darbesi"
               >
                 <defs>
                   <linearGradient 
