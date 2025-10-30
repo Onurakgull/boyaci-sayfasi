@@ -1,0 +1,319 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Hover effects */
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Custom gradient backgrounds */
+.gradient-blue {
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Mobile menu styles */
+.mobile-menu {
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+/* Form focus styles */
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3b82f6;
+  border-color: transparent;
+}
+
+/* Button hover effects */
+.btn-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+}
+
+/* Service card hover effects */
+.service-card {
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* House animation styles */
+.house-left {
+  filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.3));
+}
+
+.house-right {
+  filter: drop-shadow(-2px 2px 8px rgba(0, 0, 0, 0.3));
+}
+
+/* Custom delay utilities */
+.delay-200 {
+  transition-delay: 200ms;
+}
+
+.delay-400 {
+  transition-delay: 400ms;
+}
+
+.delay-600 {
+  transition-delay: 600ms;
+}
+
+.delay-800 {
+  transition-delay: 800ms;
+}
+
+/* Pulse animation for decorative elements */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Scale animation */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.6s ease-out;
+}
+
+/* Slide animations */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInFromRight 1s ease-out;
+}
+
+/* Paint text effects */
+.paint-text {
+  text-shadow: 
+    0 0 8px currentColor,
+    2px 2px 6px rgba(0, 0, 0, 0.8),
+    -1px -1px 2px rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
+  position: relative;
+}
+
+/* Enhanced readability for overlapping elements */
+.feature-card {
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* High contrast text for better readability */
+.high-contrast-text {
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    -1px -1px 1px rgba(255, 255, 255, 0.2),
+    0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Enhanced card styling for house feature cards */
+.house-feature-card {
+  backdrop-filter: blur(12px);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.4),
+    inSet 0 2px 0 rgba(255, 255, 255, 0.3),
+    0 0 20px rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.25) 0%, 
+    rgba(255, 255, 255, 0.1) 100%);
+}
+
+.house-feature-card:hover {
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 
+    0 16px 50px rgba(0, 0, 0, 0.5),
+    inset 0 2px 0 rgba(255, 255, 255, 0.4),
+    0 0 30px rgba(255, 255, 255, 0.2);
+}
+
+/* Ultra readable text with multiple shadows */
+.ultra-readable-text {
+  text-shadow: 
+    3px 3px 6px rgba(0, 0, 0, 0.9),
+    -1px -1px 2px rgba(255, 255, 255, 0.3),
+    0 0 12px currentColor,
+    0 0 20px rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Floating Paint Widget Styles */
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25), 0 10px 30px -10px rgba(0, 0, 0, 0.3);
+}
+
+/* Enhanced hover effects for floating widget */
+.floating-widget-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.floating-widget-hover:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.3);
+}
+
+/* Paint drip animation */
+@keyframes paintDrip {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(5px) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+}
+
+.paint-drip {
+  animation: paintDrip 2s ease-in-out infinite;
+}
+
+/* Service Card Brush Icon Filters */
+.filter-blue {
+  filter: hue-rotate(210deg) saturate(1.2) brightness(0.8);
+}
+
+.filter-green {
+  filter: hue-rotate(120deg) saturate(1.3) brightness(0.9);
+}
+
+.filter-purple {
+  filter: hue-rotate(270deg) saturate(1.4) brightness(0.85);
+}
+
+/* Enhanced Service Card Hover Effects */
+.service-card {
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Stats sayı animasyonları */
+.animate-fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

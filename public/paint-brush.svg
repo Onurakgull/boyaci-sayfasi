@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Fırça sapı -->
+  <rect x="45" y="10" width="10" height="40" fill="#8B4513" rx="5"/>
+  
+  <!-- Fırça metal kısmı -->
+  <rect x="42" y="48" width="16" height="12" fill="#C0C0C0" rx="2"/>
+  
+  <!-- Fırça kılları -->
+  <rect x="37" y="60" width="4" height="25" fill="#4A5568" rx="2"/>
+  <rect x="42" y="60" width="4" height="28" fill="#4A5568" rx="2"/>
+  <rect x="47" y="60" width="4" height="26" fill="#4A5568" rx="2"/>
+  <rect x="52" y="60" width="4" height="29" fill="#4A5568" rx="2"/>
+  <rect x="57" y="60" width="4" height="24" fill="#4A5568" rx="2"/>
+  
+  <!-- Boya damlaları -->
+  <circle cx="30" cy="75" r="3" fill="#3B82F6" opacity="0.8"/>
+  <circle cx="68" cy="80" r="2.5" fill="#10B981" opacity="0.7"/>
+  <circle cx="25" cy="85" r="2" fill="#EF4444" opacity="0.6"/>
+  <circle cx="72" cy="70" r="1.5" fill="#8B5CF6" opacity="0.7"/>
+  
+  <!-- Boya sıçramaları -->
+  <circle cx="35" cy="90" r="1" fill="#F59E0B" opacity="0.5"/>
+  <circle cx="65" cy="88" r="1.2" fill="#EC4899" opacity="0.6"/>
+</svg>

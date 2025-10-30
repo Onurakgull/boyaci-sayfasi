@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Fırça sapı -->
+  <rect x="45" y="5" width="10" height="45" fill="#8B4513" rx="5"/>
+  
+  <!-- Fırça metal kısmı -->
+  <rect x="42" y="48" width="16" height="10" fill="#C0C0C0" rx="2"/>
+  
+  <!-- Fırça kılları - BLUE VERSION -->
+  <g class="brush-bristles-blue" style="display: none;">
+    <rect x="37" y="58" width="4" height="30" fill="#3B82F6" rx="2"/>
+    <rect x="42" y="58" width="4" height="32" fill="#1D4ED8" rx="2"/>
+    <rect x="47" y="58" width="4" height="31" fill="#2563EB" rx="2"/>
+    <rect x="52" y="58" width="4" height="33" fill="#1E40AF" rx="2"/>
+    <rect x="57" y="58" width="4" height="29" fill="#1D4ED8" rx="2"/>
+  </g>
+  
+  <!-- Fırça kılları - GREEN VERSION -->
+  <g class="brush-bristles-green" style="display: none;">
+    <rect x="37" y="58" width="4" height="30" fill="#10B981" rx="2"/>
+    <rect x="42" y="58" width="4" height="32" fill="#059669" rx="2"/>
+    <rect x="47" y="58" width="4" height="31" fill="#047857" rx="2"/>
+    <rect x="52" y="58" width="4" height="33" fill="#065F46" rx="2"/>
+    <rect x="57" y="58" width="4" height="29" fill="#059669" rx="2"/>
+  </g>
+  
+  <!-- Fırça kılları - PURPLE VERSION -->
+  <g class="brush-bristles-purple" style="display: none;">
+    <rect x="37" y="58" width="4" height="30" fill="#8B5CF6" rx="2"/>
+    <rect x="42" y="58" width="4" height="32" fill="#7C3AED" rx="2"/>
+    <rect x="47" y="58" width="4" height="31" fill="#6D28D9" rx="2"/>
+    <rect x="52" y="58" width="4" height="33" fill="#5B21B6" rx="2"/>
+    <rect x="57" y="58" width="4" height="29" fill="#7C3AED" rx="2"/>
+  </g>
+  
+  <!-- DEFAULT Fırça kılları - Gri -->
+  <g class="brush-bristles-default">
+    <rect x="37" y="58" width="4" height="30" fill="#4A5568" rx="2"/>
+    <rect x="42" y="58" width="4" height="32" fill="#4A5568" rx="2"/>
+    <rect x="47" y="58" width="4" height="31" fill="#4A5568" rx="2"/>
+    <rect x="52" y="58" width="4" height="33" fill="#4A5568" rx="2"/>
+    <rect x="57" y="58" width="4" height="29" fill="#4A5568" rx="2"/>
+  </g>
+</svg>
