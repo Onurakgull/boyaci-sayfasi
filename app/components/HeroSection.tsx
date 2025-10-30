@@ -73,7 +73,7 @@ export default function HeroSection() {
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white overflow-hidden min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[700px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center min-h-[500px] sm:min-h-[600px] md:min-h-[700px]">
           {/* Sol taraf - Metin içeriği */}
           <div className="relative z-10">
             <div className={`transition-all duration-700 ${isAnimating ? 'opacity-0 transform translate-y-4' : 'opacity-100 transform translate-y-0'}`}>
@@ -122,14 +122,14 @@ export default function HeroSection() {
 
           {/* Sağ taraf - Animasyonlu Ev */}
           <div className="lg:text-right relative">
-            <div className="relative w-full h-[700px] flex items-center justify-center scale-105">
+            <div className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] flex items-center justify-center scale-75 sm:scale-90 md:scale-100 lg:scale-105">
               {/* Sol ev parçası */}
               <div className={`absolute transition-all duration-1000 ease-in-out ${
                 isAnimating 
                   ? 'transform -translate-x-full opacity-0' 
                   : 'transform translate-x-0 opacity-100'
               }`}>
-                <svg width="400" height="400" viewBox="0 0 300 300" className="house-left">
+                <svg width="100%" height="100%" viewBox="0 0 300 300" className="house-left max-w-[300px] sm:max-w-[350px] md:max-w-[400px] max-h-[300px] sm:max-h-[350px] md:max-h-[400px]">
                   {/* Sol yarı ev */}
                   <polygon 
                     points="30,150 150,60 150,270 30,270" 
@@ -167,7 +167,7 @@ export default function HeroSection() {
                   ? 'transform translate-x-full opacity-0' 
                   : 'transform translate-x-0 opacity-100'
               }`}>
-                <svg width="400" height="400" viewBox="0 0 300 300" className="house-right">
+                <svg width="100%" height="100%" viewBox="0 0 300 300" className="house-right max-w-[300px] sm:max-w-[350px] md:max-w-[400px] max-h-[300px] sm:max-h-[350px] md:max-h-[400px]">
                   {/* Sağ yarı ev */}
                   <polygon 
                     points="150,60 270,150 270,270 150,270" 
@@ -209,9 +209,9 @@ export default function HeroSection() {
                   ? 'opacity-0 scale-50' 
                   : 'opacity-100 scale-100'
               }`}>
-                <div className="relative w-[500px] h-[500px]">
+                <div className="relative w-[280px] sm:w-[380px] md:w-[450px] lg:w-[500px] h-[280px] sm:h-[380px] md:h-[450px] lg:h-[500px]">
                   {/* Ana ev yapısı - Birleşmiş hali */}
-                  <svg width="384" height="384" viewBox="0 0 288 288" className="absolute inset-0">
+                  <svg width="100%" height="100%" viewBox="0 0 288 288" className="absolute inset-0">
                     {/* Birleşmiş ev */}
                     <polygon 
                       points="30,144 144,48 258,144 258,258 30,258" 
@@ -251,16 +251,16 @@ export default function HeroSection() {
                     const currentTexts = serviceTexts[currentSlide] || serviceTexts[0];
                     
                     const positions = [
-                      { x: '-left-20', y: 'top-0', rotation: 'rotate-8', color: 'text-red-400', bgColor: 'bg-red-500/30' },
-                      { x: '-right-20', y: 'top-8', rotation: '-rotate-4', color: 'text-green-400', bgColor: 'bg-green-500/30' },
-                      { x: '-left-24', y: 'bottom-12', rotation: 'rotate-4', color: 'text-purple-400', bgColor: 'bg-purple-500/30' },
-                      { x: '-right-24', y: 'bottom-0', rotation: '-rotate-8', color: 'text-yellow-400', bgColor: 'bg-yellow-500/30' }
+                      { x: '-left-12 sm:-left-16 md:-left-20', y: 'top-0', rotation: 'rotate-8', color: 'text-red-400', bgColor: 'bg-red-500/30' },
+                      { x: '-right-12 sm:-right-16 md:-right-20', y: 'top-4 sm:top-6 md:top-8', rotation: '-rotate-4', color: 'text-green-400', bgColor: 'bg-green-500/30' },
+                      { x: '-left-14 sm:-left-18 md:-left-24', y: 'bottom-8 sm:bottom-10 md:bottom-12', rotation: 'rotate-4', color: 'text-purple-400', bgColor: 'bg-purple-500/30' },
+                      { x: '-right-14 sm:-right-18 md:-right-24', y: 'bottom-0', rotation: '-rotate-8', color: 'text-yellow-400', bgColor: 'bg-yellow-500/30' }
                     ];
                     
                     return currentTexts.map((text: string, index: number) => (
                       <div 
                         key={index}
-                        className={`absolute ${positions[index].x} ${positions[index].y} transform ${positions[index].rotation} transition-all duration-700 delay-${(index + 1) * 300} z-10 ${
+                        className={`absolute ${positions[index].x} ${positions[index].y} transform ${positions[index].rotation} transition-all duration-700 delay-${(index + 1) * 300} z-10 scale-75 sm:scale-90 md:scale-100 ${
                           isAnimating 
                             ? 'opacity-0 scale-50 translate-y-8' 
                             : 'opacity-100 scale-100 translate-y-0'
@@ -271,15 +271,15 @@ export default function HeroSection() {
                         <div className="absolute -inset-4 bg-white/25 backdrop-blur-lg rounded-xl border-2 border-white/40 shadow-2xl"></div>
                         <div className="absolute -inset-2 bg-gradient-to-br from-white/10 to-transparent rounded-lg"></div>
                         
-                        <div className="text-center relative z-10 p-4 min-w-[140px] max-w-[160px]">
-                          <div className="text-3xl mb-3 filter drop-shadow-lg">🎨</div>
-                          <div className={`text-base font-bold mb-2 ${positions[index].color} paint-text leading-tight`}
+                        <div className="text-center relative z-10 p-2 sm:p-3 md:p-4 min-w-[100px] sm:min-w-[120px] md:min-w-[140px] max-w-[120px] sm:max-w-[140px] md:max-w-[160px]">
+                          <div className="text-xl sm:text-2xl md:text-3xl mb-2 sm:mb-3 filter drop-shadow-lg">🎨</div>
+                          <div className={`text-xs sm:text-sm md:text-base font-bold mb-1 sm:mb-2 ${positions[index].color} paint-text leading-tight`}
                                style={{
                                  textShadow: '3px 3px 6px rgba(0,0,0,0.9), 0 0 12px currentColor, -1px -1px 2px rgba(255,255,255,0.3)'
                                }}>
                             {text}
                           </div>
-                          <div className="text-sm text-white font-semibold leading-tight"
+                          <div className="text-xs sm:text-sm text-white font-semibold leading-tight"
                                style={{
                                  textShadow: '2px 2px 4px rgba(0,0,0,0.9), 0 0 6px rgba(255,255,255,0.3)'
                                }}>
@@ -309,7 +309,7 @@ export default function HeroSection() {
                       ? 'opacity-0 scale-75' 
                       : 'opacity-100 scale-100'
                   }`}>
-                    <div className="bg-white/20 backdrop-blur-md rounded-xl px-6 py-4 border-2 border-white/30 shadow-2xl min-w-[200px]">
+                    <div className="bg-white/20 backdrop-blur-md rounded-xl px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 border-2 border-white/30 shadow-2xl min-w-[150px] sm:min-w-[180px] md:min-w-[200px]">
                       {(() => {
                         const centerTexts = [
                           { title: "Profesyonel", subtitle: "Boyama Hizmeti" },
@@ -320,13 +320,13 @@ export default function HeroSection() {
                         
                         return (
                           <>
-                            <h3 className="text-lg font-bold text-white drop-shadow-lg"
+                            <h3 className="text-sm sm:text-base md:text-lg font-bold text-white drop-shadow-lg"
                                 style={{
                                   textShadow: '2px 2px 4px rgba(0,0,0,0.8)'
                                 }}>
                               {currentCenter.title}
                             </h3>
-                            <h3 className="text-lg font-bold text-yellow-400 drop-shadow-lg"
+                            <h3 className="text-sm sm:text-base md:text-lg font-bold text-yellow-400 drop-shadow-lg"
                                 style={{
                                   textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0 0 8px #FBBF24'
                                 }}>
