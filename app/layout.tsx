@@ -19,9 +19,9 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Bafra Boyacı | Profesyonel Ev & Dış Cephe Boyama Hizmeti",
-  description: "Bafra'da 15+ yıllık deneyimle iç ve dış cephe boyama, ev boyama ve boya badana hizmetleri. Ücretsiz keşif, kaliteli malzeme garantisi ve uygun fiyat. Boya ustası Bafra ☎️ 0505 520 9625",
-  keywords: "Bafra boyacı, Bafra boya badana ustası, Bafra ev boyama hizmeti, İç cephe boyama Bafra, Dış cephe boyama Bafra, Boya ustası Bafra, boyacı Samsun, ev boyama Bafra",
+  title: "Bafra Boyacı | #1 Bafra Boya Ustası - 15+ Yıl Deneyim ☎️ 0505 520 9625",
+  description: "⭐ Bafra'nın 1 Numaralı Boyacısı! 15+ yıl deneyim, 1000+ mutlu müşteri. İç cephe, dış cephe, ev boyama. Ücretsiz keşif! Bafra boyacı arıyorsanız hemen arayın ☎️ 0505 520 9625",
+  keywords: "bafra boyacı, bafra boya ustası, boyacı bafra, boya ustası bafra, ev boyama bafra, iç cephe boyama bafra, dış cephe boyama bafra, bafra boya badana, bafra boyama hizmeti, boyacı samsun, usta boyacı bafra, profesyonel boyacı bafra, güvenilir boyacı bafra, kaliteli boyacı bafra, uygun fiyat boyacı bafra, bafra ev boyacısı, bafra dış cephe boyacısı, bafra iç cephe boyacısı",
   authors: [{ name: "Bafra Boyacı" }],
   generator: "Next.js",
   applicationName: "Bafra Boyacı",
@@ -49,10 +49,10 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Bafra Boyacı | Profesyonel Ev & Dış Cephe Boyama Hizmeti",
-    description: "Bafra'da 15+ yıllık deneyimle iç ve dış cephe boyama, ev boyama ve boya badana hizmetleri. Ücretsiz keşif ve kaliteli hizmet garantisi.",
+    title: "Bafra Boyacı | #1 Bafra Boya Ustası - 15+ Yıl Deneyim",
+    description: "⭐ Bafra'nın 1 Numaralı Boyacısı! 15+ yıl deneyim, 1000+ mutlu müşteri. Bafra boyacı arıyorsanız doğru adrestesiniz! ☎️ 0505 520 9625",
     url: 'https://bafraninboyacisi.com.tr',
-    siteName: 'Bafranın Boyacısı',
+    siteName: 'Bafra Boyacı - Bafranın Boyacısı',
     locale: "tr_TR",
     type: "website",
     countryName: "Turkey",
@@ -67,8 +67,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bafra Boyacı | Profesyonel Ev & Dış Cephe Boyama Hizmeti',
-    description: 'Bafra\'da 15+ yıllık deneyimle iç ve dış cephe boyama, ev boyama ve boya badana hizmetleri. Ücretsiz keşif ☎️ 0505 520 9625',
+    title: 'Bafra Boyacı | #1 Bafra Boya Ustası - 15+ Yıl Deneyim',
+    description: '⭐ Bafra\'nın 1 Numaralı Boyacısı! Bafra boyacı arıyorsanız hemen arayın ☎️ 0505 520 9625',
     images: ['https://bafraninboyacisi.com.tr/painter.jpg'],
     creator: '@bafraboyaci',
     site: '@bafraboyaci',
@@ -117,6 +117,15 @@ export default function RootLayout({
         <meta name="geo.placename" content="Bafra, Samsun" />
         <meta name="geo.position" content="41.5667;35.9" />
         <meta name="ICBM" content="41.5667, 35.9" />
+        <meta name="DC.title" content="Bafra Boyacı - Bafra Boya Ustası" />
+        <meta name="rating" content="General" />
+        <meta name="distribution" content="Global" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="author" content="Bafra Boyacı" />
+        <meta name="coverage" content="Worldwide" />
+        <meta name="identifier-URL" content="https://bafraninboyacisi.com.tr" />
+        <meta name="category" content="Boyama Hizmetleri, İnşaat, Tadilat" />
+        <meta name="subject" content="Bafra Boyacı, Boya Ustası, Ev Boyama" />
         <link rel="canonical" href="https://bafraninboyacisi.com.tr" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -131,20 +140,25 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "HomeAndConstructionBusiness",
+              "@type": ["HomeAndConstructionBusiness", "LocalBusiness", "ProfessionalService"],
               "name": "Bafra Boyacı",
-              "alternateName": "Bafranın Boyacısı",
-              "description": "Bafra'da 15+ yıllık deneyimle iç ve dış cephe boyama, ev boyama ve boya badana hizmetleri.",
+              "alternateName": ["Bafranın Boyacısı", "Bafra Boya Ustası", "Boyacı Bafra"],
+              "description": "Bafra'nın 1 numaralı boyacısı. 15+ yıl deneyim, 1000+ mutlu müşteri. İç cephe, dış cephe, ev boyama hizmetleri. Bafra boyacı arıyorsanız hemen arayın!",
               "url": "https://bafraninboyacisi.com.tr",
               "telephone": "+90-505-520-9625",
               "email": "info@bafraninboyacisi.com.tr",
-              "areaServed": ["Bafra", "Samsun", "Terme", "Vezirköprü"],
+              "areaServed": ["Bafra", "Samsun", "Terme", "Vezirköprü", "Alaçam", "Asarcık"],
               "priceRange": "$$",
-              "paymentAccepted": ["Cash", "Credit Card"],
+              "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
               "currenciesAccepted": "TRY",
               "openingHours": ["Mo-Sa 08:00-18:00"],
               "foundingDate": "2009",
-              "slogan": "Güvenilir Boya Ustası",
+              "slogan": "Bafra'nın 1 Numaralı Boyacısı",
+              "knowsAbout": ["İç Cephe Boyama", "Dış Cephe Boyama", "Ev Boyama", "Boya Badana", "Duvar Boyama", "Apartman Boyama"],
+              "sameAs": [
+                "https://www.google.com/maps/search/bafra+boyacı",
+                "https://www.yandex.com.tr/harita/search/bafra%20boyacı"
+              ],
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Bafra",

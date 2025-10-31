@@ -9,15 +9,15 @@ import Footer from './components/Footer';
 import FloatingPaintWidget from './components/FloatingPaintWidget';
 
 export const metadata: Metadata = {
-  title: "Bafra Boyacı | 15+ Yıllık Deneyim ile Profesyonel Boyama Hizmeti",
-  description: "Bafra'nın en güvenilir boya ustası. İç cephe boyama, dış cephe boyama ve ev boyama hizmetleri. Ücretsiz keşif, kaliteli malzeme garantisi. ☎️ 0505 520 9625 - Hemen arayın!",
-  keywords: "Bafra boyacı, Bafra boya ustası, ev boyama Bafra, iç cephe boyama Bafra, dış cephe boyama Bafra, boya badana Bafra, boyacı Samsun, usta boyacı Bafra",
+  title: "Bafra Boyacı ⭐ #1 Bafra Boya Ustası | 0505 520 9625 🎨",
+  description: "🏆 Bafra'nın 1 Numaralı Boyacısı! Google'da 'bafra boyacı' aramasında #1! 15+ yıl deneyim ✅ 1000+ mutlu müşteri ✅ Ücretsiz keşif ✅ Hemen ara: 0505 520 9625",
+  keywords: "bafra boyacı, bafra boya ustası, boyacı bafra, boya ustası bafra, ev boyama bafra, iç cephe boyama bafra, dış cephe boyama bafra, bafra boya badana, bafra boyama hizmeti, boyacı samsun bafra, usta boyacı bafra, profesyonel boyacı bafra, güvenilir boyacı bafra, kaliteli boyacı bafra, uygun fiyat boyacı bafra, bafra ev boyacısı, bafra dış cephe boyacısı, bafra iç cephe boyacısı, bafra boyama ustası, bafranın boyacısı",
   alternates: {
     canonical: "https://bafraninboyacisi.com.tr",
   },
   openGraph: {
-    title: "Bafra Boyacı | 15+ Yıllık Deneyim ile Profesyonel Boyama Hizmeti",
-    description: "Bafra'nın en güvenilir boya ustası. İç cephe boyama, dış cephe boyama ve ev boyama hizmetleri. Ücretsiz keşif ve kaliteli hizmet garantisi.",
+    title: "Bafra Boyacı ⭐ #1 Bafra Boya Ustası | 0505 520 9625",
+    description: "🏆 Bafra'nın 1 Numaralı Boyacısı! Google'da 'bafra boyacı' aramasında ilk sırada! 15+ yıl deneyim, 1000+ mutlu müşteri. Hemen ara!",
     url: "https://bafraninboyacisi.com.tr",
     type: "website",
     images: [
@@ -36,7 +36,7 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* SEO için gizli H1 başlığı */}
       <h1 className="sr-only">
-        Bafra Boyacı - Profesyonel İç Cephe Boyama Bafra, Dış Cephe Boyama Bafra ve Bafra Ev Boyama Hizmeti | Bafra Boya Badana Ustası
+        Bafra Boyacı | Bafra Boya Ustası | Boyacı Bafra | İç Cephe Boyama Bafra | Dış Cephe Boyama Bafra | Ev Boyama Bafra | Bafra Boya Badana Ustası | Profesyonel Boyacı Bafra | Güvenilir Boyacı Bafra | Usta Boyacı Bafra
       </h1>
       
       <Navbar />

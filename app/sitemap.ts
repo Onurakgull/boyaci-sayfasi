@@ -35,5 +35,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    // Yerel SEO için özel sayfalar
+    {
+      url: `${baseUrl}/bafra-boyaci`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/bafra-boya-ustasi`,
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/ic-cephe-boyama-bafra`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/dis-cephe-boyama-bafra`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/ev-boyama-bafra`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
   ]
 }

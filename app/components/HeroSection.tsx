@@ -8,9 +8,9 @@ export default function HeroSection() {
 
   const slides = [
     {
-      title: "Bafra Boyacı — Güvenilir Boya Ustası",
-      subtitle: "15+ Yıllık Deneyim",
-      description: "Bafra ev boyama hizmeti ve boya badana ihtiyaçlarınız için uzman ekip. İç cephe boyama Bafra ve dış cephe boyama Bafra alanlarında profesyonel çözümler.",
+      title: "Bafra Boyacı 🎨 Bafranın 1 Numaralı Boya Ustası",
+      subtitle: "Google'da 'Bafra Boyacı' #1 🏆",
+      description: "Bafra boyacı arıyorsanız doğru adrestesiniz! 15+ yıl deneyim, 1000+ mutlu müşteri. İç cephe boyama Bafra, dış cephe boyama Bafra ve ev boyama Bafra hizmetleri.",
       features: [
         { icon: "🏆", text: "Bafra boya badana ustası", number: "15+" },
         { icon: "✅", text: "Kaliteli malzeme garantisi", number: "100%" },
@@ -19,9 +19,9 @@ export default function HeroSection() {
       ]
     },
     {
-      title: "İç Cephe Boyama Bafra",
-      subtitle: "Modern Renkler",
-      description: "İç cephe boyama Bafra hizmetimizle evinizin içini yenileyin. Boya ustası Bafra ekibimizle kaliteli hizmet garantisiyle.",
+      title: "İç Cephe Boyama Bafra 🏠 Ev Boyama Bafra",
+      subtitle: "Bafra'nın En İyi Boyacısı",
+      description: "Boyacı Bafra arıyorsanız bizi arayın! İç cephe boyama Bafra ve ev boyama Bafra hizmetleri. Boya ustası Bafra ekibimizle evınızı yenileyin.",
       features: [
         { icon: "🏠", text: "Bafra ev boyama uzmanı", number: "300+" },
         { icon: "🎨", text: "Renk danışmanlığı", number: "50+" },
@@ -30,9 +30,9 @@ export default function HeroSection() {
       ]
     },
     {
-      title: "Dış Cephe Boyama Bafra",
-      subtitle: "Dayanıklı Koruma",
-      description: "Dış cephe boyama Bafra hizmetimizle binanızın dış cephesini hava koşullarına dayanıklı özel boyalarla koruyun. Bafra boyacı ekibimizle uzun ömürlü çözümler.",
+      title: "Dış Cephe Boyama Bafra 🏢 Profesyonel Boyacı",
+      subtitle: "Bafra Boya Ustası - 15+ Yıl Deneyim",
+      description: "Dış cephe boyama Bafra'da 1 numarayız! Bafra boyacı, boyacı Bafra ve boya ustası Bafra arayışlarında en çok tercih edilen firma. Dayanıklı koruma garantisi.",
       features: [
         { icon: "🏢", text: "Dış cephe boyama uzmanı", number: "200+" },
         { icon: "🌧️", text: "Hava dayanıklılığı", number: "10+" },
@@ -72,7 +72,7 @@ export default function HeroSection() {
 
   return (
     <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white overflow-hidden min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center min-h-[500px] sm:min-h-[600px] md:min-h-[700px]">
           {/* Sol taraf - Metin içeriği */}
           <div className="relative z-10">
