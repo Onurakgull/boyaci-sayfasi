@@ -34,18 +34,17 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/icon.svg', type: 'image/svg+xml', sizes: '32x32' },
     ],
     apple: [
       { url: '/apple-icon.svg', sizes: '180x180', type: 'image/svg+xml' },
     ],
-    shortcut: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-    ],
+    shortcut: '/favicon.ico',
     other: [
       { rel: 'mask-icon', url: '/favicon.svg', color: '#2563EB' },
-      { rel: 'icon', url: '/favicon.svg', type: 'image/svg+xml' },
     ],
   },
   openGraph: {
@@ -109,6 +108,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Bafra Boyacı" />
         <meta name="application-name" content="Bafra Boyacı" />
         <meta name="msapplication-TileColor" content="#2563EB" />
+        <meta name="msapplication-TileImage" content="/favicon.ico" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="HandheldFriendly" content="True" />
@@ -131,6 +131,8 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="32x32" />
         <link rel="apple-touch-icon" href="/apple-icon.svg" />
